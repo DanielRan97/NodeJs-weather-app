@@ -1,0 +1,65 @@
+body{
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+footer{
+    width: 100%;
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+}
+
+#mainContact{
+    flex-grow: 1;
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a{
+    color: #888888;
+    margin-right: 6px;
+    text-decoration: none;
+}
+
+#robotImg{
+    width: 250px;
+}
+
+
+
+#title404{
+text-align: center;
+font-size: 40px;
+margin-top: 100px;
+}
+
+#title404 h6{
+   margin-top: -10px;
+    }
+
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #888888;
+    background-color: #888888;
+    color: white;
+    padding: 8px;
+}

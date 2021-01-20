@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="/images/weather.png">
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+    <div id="mainContact">
+        <div id="header">
+            {{>header}}
+        </div>
+
+        <div id="form">
+
+            <form>
+
+                <input type="text" placeholder="Location">
+
+                <button>Search</button>
+                <button type="button" id="locationWeatherButton">My location</button>
+
+            </form>
+          
+            <div id="result">
+              
+                <p id="message-1"></p>
+               
+                <p id="message-2"></p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div id="footer">
+        {{>footer}}
+    </div>
+
+
+
+
+
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>
